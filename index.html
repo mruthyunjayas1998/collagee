@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <style>
+
+body {
+
+
+background: #e0e0e0;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 14px;
+color: #000;
+display: flex;
+margin: 0;
+padding: 0;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+
+
+.swiper-container {
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.swiper-slide {
+background-position: center;
+background-size: cover;
+width: 300px;
+height: 300px;
+background: #e0e0e0;
+
+-webkit-box-reflect:below 1px linear-gradient(transparent,transparent,#0006);
+
+}
+   
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+</style>
+    </style>
+</head>
+<body><!-- Swiper -->
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="img/Mru.jpg">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/Mru.jpg">
+        </div>
+        <div class="swiper-slide"><div class="card">
+          <div calss="img-card">
+            <img src="Mru.jpg" alt="Mruhtyunjaya S" style="width:50%; filter: drop-shadow(0 0 0.75rem #bebebe);">
+          </div>
+        <h3>Mruhtyunjaya S</h3>
+        <p class="title">CEO & Founder, Example</p>
+        
+        <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-dribbble"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        
+      </div>
+        </div>
+        <div class="swiper-slide"><div class="card">
+          <div calss="img-card">
+            <img src="Mru.jpg" alt="Mruhtyunjaya S" style="width:50%; filter: drop-shadow(0 0 0.75rem #bebebe);">
+          </div>
+        <h3>Mruhtyunjaya S</h3>
+        <p class="title">CEO & Founder, Example</p>
+        
+        <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-dribbble"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        
+      </div>
+        </div>
+        <div class="swiper-slide"><div class="card">
+          <div calss="img-card">
+            <img src="Mru.jpg" alt="Mruhtyunjaya S" style="width:50%; filter: drop-shadow(0 0 0.75rem #bebebe);">
+          </div>
+        <h3>Mruhtyunjaya S</h3>
+        <p class="title">CEO & Founder, Example</p>
+        
+        <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-dribbble"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        
+      </div>
+        </div>
+        <div class="swiper-slide"><img src="img/Mru.jpg">
+        </div>
+        <div class="swiper-slide"><img src="img/Mru.jpg">
+        </div>
+        <div class="swiper-slide"><img src="img/Mru.jpg">
+        </div>
+        <div class="swiper-slide"><img src="img/Mru.jpg">
+        </div>
+        <div class="swiper-slide"><img src="img/Mru.jpg">
+        </div>
+        
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+     loop:true,
+     autoplay:{
+         delay:500,
+         disableOnInteration :false
+
+     },
+    });
+  </script>
+
+</body>
+</html>
